@@ -1,0 +1,1 @@
+S:\Development\Uwp-Webview-swipe\Swipe.Webview\Swipe.Webview.Example\Swipe.Webview.Example.csproj;x86

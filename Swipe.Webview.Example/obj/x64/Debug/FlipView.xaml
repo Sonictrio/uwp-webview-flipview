@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Swipe.Webview.Example.FlipView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Swipe.Webview.Example"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="using:Swipe.Webview.Example.Controls"
+    xmlns:model="using:Swipe.Webview.Example.Model"
+    mc:Ignorable="d">
+
+
+    <Grid>
+        <FlipView x:ConnectionId='1' x:Name="PART_FlipView" 
+                  ItemsSource="{Binding Path=Items}"
+                  UseTouchAnimationsForAllNavigation="True">
+            <FlipView.ItemTemplate>
+                <DataTemplate>
+                    <controls:FlipViewArticle />
+                </DataTemplate>
+            </FlipView.ItemTemplate>
+        </FlipView>
+        <Button x:ConnectionId='2' x:Name="button" Content="Back" HorizontalAlignment="Left" Foreground="Azure" Margin="10,10,0,0" VerticalAlignment="Top"                     />
+    </Grid>
+</Page>
+

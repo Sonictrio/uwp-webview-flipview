@@ -1,0 +1,1 @@
+S:\Development\Windows-universal-flipview-webview\Swipe.Webview.Example\Swipe.Webview.Example.csproj;x64
